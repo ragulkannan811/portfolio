@@ -1,0 +1,155 @@
+#ho{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+.skils_png{
+    margin-top: 150px;
+}
+.nav_bar{
+    margin-top: 0;
+    z-index: 2;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-left: 30%;
+    display: flex;
+    position: fixed;
+    width: 70%;
+    background-color: aqua;
+    width: 40%;
+    background-origin: padding-box;
+}
+.h{
+    box-shadow: 0 0 5px blueviolet;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-left:30px;
+    padding: 10px;
+}
+.h:hover{
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px blueviolet,0 0 50px blueviolet;
+}
+.en{
+    background-color: blueviolet;
+}
+.about_prg{
+    animation-name: about_prg;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes about_prg{
+    from{
+        width: 10%;
+    }
+    to{
+       
+        width: 50%;
+    }
+}
+.end1{
+    margin-left: 14%;
+    margin-top: 3%;
+}
+.skils_png{
+    animation-name: skils_png;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes skils_png{
+    0%{
+        transform: translate(0, 0px);
+    }
+    50%{
+        transform: translate(0,15px);
+    }
+    100%{
+        transform: translate(0, 0px);
+    }
+}
+.end2{
+    margin-left: 14%;
+    margin-top: 3%;
+}
+.project_1{
+    border-radius: 50px;
+background-color:aqua;
+margin-left: 30%;
+margin-Right: 30%;
+margin-top: 100px;
+width: 40%;
+height: 500px;
+}
+.project_1parg{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: blueviolet;
+    margin-top: 50px;
+    color: aliceblue;
+}
+.project_1img{
+    width: 400px;
+    padding-left: 100px;
+}
+.visit{
+    margin-left: 20px;
+    background-color: blueviolet;
+    color: aqua;
+    border-radius: 20px;
+    width: 50px;
+    height: 30px;
+    box-shadow: 0 0 5px blueviolet;
+}
+.visit:hover{
+    box-shadow: 0 0 5px blueviolet,
+    0 0 25px blueviolet,0 0 50px blueviolet;
+}
+.project_2{
+    border-radius: 50px;
+    background-color:aqua;
+    margin-left: 30%;
+    margin-Right: 30%;
+    margin-top: 100px;
+    width: 40%;
+    height: 500px;
+    }
+    .project_2img{
+        width: 400px;
+        padding-left: 100px;
+    }
+    .project_2parg{
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        background-color: blueviolet;
+        margin-top: 50px;
+        color: aliceblue;
+    }
+    #contact{
+   height: 500px;
+    }
+   .download
+   {
+    box-shadow: 0 0 5px aqua;
+    margin-top: 30px;
+    background-color: aqua;
+    color: blueviolet;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+   }
+   .download:hover{
+    box-shadow: 0 0 5px aqua,
+    0 0 25px aqua,0 0 50px aqua,
+    0 0 75px aqua;
+   }
+  
